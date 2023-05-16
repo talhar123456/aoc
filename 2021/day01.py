@@ -10,7 +10,6 @@ print('part 01: ', count-1)
 count = 0
 x = 0
 combined = data+data
-# print(combined)
 for i in range(len(data)):
     sum = int(combined[i]) + int(combined[i+1]) + int(combined[i+2])
     if x < sum:
